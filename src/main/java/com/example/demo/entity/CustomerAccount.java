@@ -14,8 +14,6 @@ import java.util.List;
 @Setter
 @ToString
 public class CustomerAccount {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "customer_account_id")

@@ -8,7 +8,6 @@ import java.util.Collection;
 
 
 public class CustomUserDetails extends com.example.demo.entity.User implements UserDetails {
-
     public CustomUserDetails(User user) {
         super(user);
     }
